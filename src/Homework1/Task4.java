@@ -23,10 +23,10 @@ public class Task4 {
 
     public static void main(String[] args) {
 
-            int[] A = {2, 3, 6, 7, 9};
+            int[] A = {2, 3, 6, 7, 9,12};
             int[] B = {1, 4, 8, 10};
-            int k = 5;
-            System.out.println("The " + k + "th largest element is " + findK(A, A.length, B, B.length, k));
+            int k = 10;
+            System.out.println("第 " + k + "大的数字是 " + findK(A, A.length, B, B.length, k));
 
     }
 }
