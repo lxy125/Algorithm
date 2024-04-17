@@ -98,7 +98,7 @@ public class Dijkstra {
         // 打印计算出的最短距离
         printSolution(dist);
     }
-
+    
     //找出未处理的节点中距离最小的节点
     public static int minDistance(int[] dist, boolean[] state) {
         int min = INF, min_index = -1;
